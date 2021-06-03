@@ -98,9 +98,9 @@
 								</li>
 
                 <li class="kt-menu__item" aria-haspopup="false">
-									<a href="ProjectsList.php" class="kt-menu__link ">
-										<i class="kt-menu__link-icon la la-folder la-2x"></i>
-										<span class="kt-menu__link-text">إدارة المشاريع</span>
+									<a href="UsersList.php" class="kt-menu__link ">
+										<i class="kt-menu__link-icon la la-user la-2x"></i>
+										<span class="kt-menu__link-text">إدارة المستخدمين</span>
 									</a>
 								</li>
 
