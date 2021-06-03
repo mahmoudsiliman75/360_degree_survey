@@ -112,141 +112,11 @@
 								</li>
 
                 <li class="kt-menu__item" aria-haspopup="false">
-									<a href="TasksManagement.php" class="kt-menu__link ">
-										<i class="kt-menu__link-icon la la-clipboard la-2x"></i>
-										<span class="kt-menu__link-text">إدارة المهام</span>
+									<a href="Questions.php" class="kt-menu__link ">
+										<i class="kt-menu__link-icon la la-question-circle la-2x"></i>
+										<span class="kt-menu__link-text">إدارة الأسئلة</span>
 									</a>
 								</li>
-
-
-
-
-								<!-- <li class="kt-menu__item"  aria-haspopup="true">
-									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
-										<i class="kt-menu__link-icon la la-users la-2x" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text">ادارة الموارد البشرية</span>
-										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
-									</a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-
-											<li class="kt-menu__item">
-												<a href="hrAddNewEmployee.php" class="kt-menu__link kt-menu__toggle"> إضافة موظف جديد</a>
-											</li>
-
-											<li class="kt-menu__item">
-												<a href="hrManageEmployees.php" class="kt-menu__link kt-menu__toggle"> قائمة الموظفين</a>
-											</li>
-
-											<li class="kt-menu__item">
-												<a href="hrManageEmployessFinac.php" class="kt-menu__link kt-menu__toggle"> إضافة حوافز او خصومات للموظفين</a>
-											</li>
-
-											<li class="kt-menu__item">
-												<a href="hrEmployeesArchive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف الموظفين </a>
-											</li>
-
-											<li class="kt-menu__item">
-												<a href="hrAccounting.php" class="kt-menu__link kt-menu__toggle">   حسابات الموظفين </a>
-											</li>
-
-										</ul>
-									</div>
-								</li> -->
-
-								<!-- <li class="kt-menu__item" aria-haspopup="false">
-									<a href="mainServices.php" class="kt-menu__link ">
-										<i class="kt-menu__link-icon la la-diamond" style="font-size: 20px;"></i>
-										<span class="kt-menu__link-text">ادارة الخدمات</span>
-									</a>
-								</li> -->
-
-								<!-- <li class="kt-menu__item"  aria-haspopup="true">
-									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
-										<i class="kt-menu__link-icon la la-cloud" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text">ادارة الإستضافات</span>
-										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
-									</a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-
-											<li class="kt-menu__item">
-												<a href="hosting.php" class="kt-menu__link kt-menu__toggle"> الإستضافات </a>
-											</li>
-
-											<li class="kt-menu__item">
-												<a href="packages.php" class="kt-menu__link kt-menu__toggle"> باقات الإستضافات </a>
-											</li>
-
-										</ul>
-									</div>
-								</li> -->
-
-								<!-- <li class="kt-menu__item" aria-haspopup="false">
-									<a href="contracts.php" class="kt-menu__link ">
-										<i class="kt-menu__link-icon la la-check-square" style="font-size: 20px;"></i>
-										<span class="kt-menu__link-text"> ادارة التعاقدات </span>
-									</a>
-								</li> -->
-
-								<!-- <li class="kt-menu__item"  aria-haspopup="true">
-									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
-										<i class="kt-menu__link-icon la la-briefcase" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text">ادارة العملاء</span>
-										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
-									</a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-
-                      <li class="kt-menu__item">
-												<a href="clients-list.php" class="kt-menu__link kt-menu__toggle"> قائمة  العملاء  </a>
-                      </li>
-
-											<li class="kt-menu__item">
-												<a href="add-leads.php" class="kt-menu__link kt-menu__toggle"> إضافة عميل محتمل  </a>
-                      </li>
-
-                      <li class="kt-menu__item">
-												<a href="leads-list.php" class="kt-menu__link kt-menu__toggle"> قائمة العملاء المحتملين  </a>
-                      </li>
-
-                      <li class="kt-menu__item">
-												<a href="leads-archive.php" class="kt-menu__link kt-menu__toggle"> قائمة ارشيف العملاء المحتملين  </a>
-                      </li>
-
-                      <li class="kt-menu__item">
-												<a href="follow-up-list.php" class="kt-menu__link kt-menu__toggle"> قائمة المتابعات  </a>
-                      </li>
-
-                      <li class="kt-menu__item">
-												<a href="project-managers-list.php" class="kt-menu__link kt-menu__toggle"> قائمة توزيع المشاريع  </a>
-											</li>
-
-										</ul>
-									</div>
-								</li> -->
-
-                <!-- <li class="kt-menu__item"  aria-haspopup="true">
-									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
-										<i class="kt-menu__link-icon la la-dollar" style="font-size: 20px"></i>
-										<span class="kt-menu__link-text">ادارة المالية</span>
-										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
-									</a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-
-                      <li class="kt-menu__item">
-												<a href="payments.php" class="kt-menu__link kt-menu__toggle">   المصروفات  </a>
-                      </li>
-
-											<li class="kt-menu__item">
-												<a href="ProfitsAndLoses.php" class="kt-menu__link kt-menu__toggle">  الارباح و الخسائر  </a>
-                      </li>
-
-										</ul>
-									</div>
-								</li> -->
-
 							</ul>
 						</div>
 					</div>
@@ -319,7 +189,7 @@
 									<!--START: HEAD -->
 									<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/pics/bg-4.jpg">
 										<div class="kt-user-card__avatar">
-											<img class="" alt="Pic" src="assets/pics/default.jpg" />
+											<img class="rounded-circle" alt="Pic" src="assets/pics/default.jpg" />
 										</div>
 										<div class="kt-user-card__name">
 											محمود سليمان
@@ -340,7 +210,7 @@
 											</div>
 										</a>
 
-                    <a href="edit-profile.php" class="kt-notification__item">
+                    <a href="EditProfile.php" class="kt-notification__item">
 											<div class="kt-notification__item-icon">
 												<i class="flaticon-cogwheel-1 kt-font-success"></i>
 											</div>

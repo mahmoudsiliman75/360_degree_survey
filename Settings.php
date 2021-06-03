@@ -14,7 +14,7 @@
               <h3 class="kt-portlet__head-title kt-font-boldest"> التحكم فى عرض التقييم </h3>
 
               <span class="kt-switch kt-switch--icon d-flex justify-content-between align-items-center">
-                <label ckass="mb-0 ">
+                <label class="mb-0 ">
                   <input type="checkbox" checked="checked" name="">
                   <span></span>
                 </label>
