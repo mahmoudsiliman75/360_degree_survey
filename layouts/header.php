@@ -98,6 +98,13 @@
 								</li>
 
                 <li class="kt-menu__item" aria-haspopup="false">
+									<a href="Settings.php" class="kt-menu__link ">
+										<i class="kt-menu__link-icon la la-gears la-2x"></i>
+										<span class="kt-menu__link-text"> الاعدادات </span>
+									</a>
+								</li>
+
+                <li class="kt-menu__item" aria-haspopup="false">
 									<a href="UsersList.php" class="kt-menu__link ">
 										<i class="kt-menu__link-icon la la-user la-2x"></i>
 										<span class="kt-menu__link-text">إدارة المستخدمين</span>
