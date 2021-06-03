@@ -4,7 +4,7 @@
 	<!-- START::HEAD -->
 	<head>
 		<meta charset="utf-8" />
-		<title>Tech Workflow</title>
+		<title> 360 Degree Survey </title>
 		<meta name="description" content="Latest updates and statistic charts">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -53,7 +53,7 @@
 
 			<div class="kt-header-mobile__logo">
 				<a href="index.php">
-          <h3 class="logo"> Tech <span> Workflow </span> </h3>
+          <h5 class="logo"> <span> 360 </span> Degree Survey </h5>
 				</a>
 			</div>
 
@@ -76,7 +76,7 @@
 					<div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
 						<div class="kt-aside__brand-logo">
 							<a href="index.php" style="color: #fff;">
-								<h3 class="logo"> Tech <span> Workflow </span> </h3>
+								<h4 class="logo"> <span> 360 </span> Degree Survey </h4>
 							</a>
 						</div>
 						<div class="kt-aside__brand-tools">

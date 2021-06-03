@@ -336,11 +336,11 @@ div.mce-edit-area {
   border-top: 1px solid #ff5858;
 }
 
-#kt_header_mobile .kt-header-mobile__logo a h3 {
+#kt_header_mobile .kt-header-mobile__logo a h5 {
   color: #fff;
 }
 
-#kt_header_mobile .kt-header-mobile__logo a h3 span {
+#kt_header_mobile .kt-header-mobile__logo a h5 span {
   color: #ff5858;
 }
 
@@ -444,7 +444,7 @@ div.mce-edit-area {
 }
 
 .kt-aside--minimize .kt-aside__brand .kt-aside__brand-logo img,
-.kt-aside--minimize .kt-aside__brand .kt-aside__brand-logo h3 {
+.kt-aside--minimize .kt-aside__brand .kt-aside__brand-logo h4 {
   display: none;
 }
 
@@ -459,11 +459,11 @@ div.mce-edit-area {
   background: #ff5858;
 }
 
-.kt-grid.kt-grid--hor-desktop.kt-grid--desktop > #kt_aside_brand .kt-aside__brand-logo h3 {
+.kt-grid.kt-grid--hor-desktop.kt-grid--desktop > #kt_aside_brand .kt-aside__brand-logo h4 {
   margin: 0;
 }
 
-.kt-grid.kt-grid--hor-desktop.kt-grid--desktop > #kt_aside_brand .kt-aside__brand-logo h3 span {
+.kt-grid.kt-grid--hor-desktop.kt-grid--desktop > #kt_aside_brand .kt-aside__brand-logo h4 span {
   color: #ff5858;
   font-weight: 600;
 }
