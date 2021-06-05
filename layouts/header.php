@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en" style="overflow-x: hidden;">
 
 	<!-- START::HEAD -->
@@ -132,6 +132,13 @@
 
 						<!-- START:: HEADER TOPBAR -->
 						<div class="kt-header__topbar">
+
+
+              <!--START:: PERSONAL DEMO BTN -->
+              <div class="btn_wraper d-flex justify-content-center align-items-center">
+                <a href="PersonalIndex.php" class="btn btn-outline-danger btn-sm"> لوحة التحكم للشخص </a>
+              </div>
+							<!--END:: PERSONAL DEMO BTN -->
 
 							<!--START:: NOTIFICATIONS -->
 							<div class="kt-header__topbar-item dropdown">

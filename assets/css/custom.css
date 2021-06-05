@@ -467,6 +467,11 @@ div.mce-edit-area {
   color: #ff5858;
   font-weight: 600;
 }
+
+
+.kt-header.kt-grid__item .kt-header__topbar .kt-aside__brand-logo a .logo span {
+  color: #ff5858;
+}
 /* END:: CUSTOMIZE ASIDE STYLE */
 
 /* START:: CUSTOMIZE ASIDEMENU STYLE*/
