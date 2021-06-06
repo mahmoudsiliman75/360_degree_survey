@@ -751,7 +751,6 @@ input.btn.btn-label-brand.active {
   padding-bottom: 20px;
   position: relative;
   border-radius: 15px;
-
 }
 
 .user_card img {
@@ -772,6 +771,34 @@ input.btn.btn-label-brand.active {
   margin-top: 70px;
 }
 /* END:: CLIENT PROFILE PAGE STYLES */
+
+/* START:: MEMBER CARD STYLES */
+.member_wraper {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.member_wraper img {
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid #163340;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #b1b1b1;
+  z-index: 1;
+}
+
+.member_wraper .card-body {
+  margin-top: 50px;
+}
+/* END: MEMBER CARD STYLES */
 
 /* START:: TESTEMONIALS SECTION STYLES */
 .testemonials .owl-carousel .item .testemonial_card {
