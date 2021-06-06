@@ -97,6 +97,11 @@
 		<script src="assets/js/dropzonejs.js" type="text/javascript"></script>
     <!-- END:: UPLOADFILES SCRIPT -->
 
+    <!-- START:: OWL CAROUSEL STYLE -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- END:: OWL CAROUSEL STYLE -->
+
+
     <!-- START:: SWEET ALERT -->
     <script src="assets/js/sweetalert2.js" type="text/javascript"></script>
     <!-- END:: SWEET ALERT -->

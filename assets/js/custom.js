@@ -56,6 +56,22 @@ $(document).ready( function () {
   });
   // END:: CHANGE OFFER PIC
 
+  // START:: OWL CAROUSEL
+  $('#testemonials').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    margin:30,
+    nav: false,
+    dots: true,
+    items:1,
+    rtl: true, 
+    smartSpeed: 2500,
+    dotsSpeed: 2500,
+  });
+  // end:: OWL CAROUSEL 
+
   $('#remove-offer-pic').on('click', function() {
     $(this).parent().parent().empty();
   });

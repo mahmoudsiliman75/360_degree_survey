@@ -773,6 +773,31 @@ input.btn.btn-label-brand.active {
 }
 /* END:: CLIENT PROFILE PAGE STYLES */
 
+/* START:: TESTEMONIALS SECTION STYLES */
+.testemonials .owl-carousel .item .testemonial_card {
+  background-color: #fff;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+  transition: all 0.4s ease-in-out;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .card_body .text {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 17px;
+  color: #555;
+  line-height: 1.7;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+/* END:: TESTEMONIALS SECTION STYLES */
+
 
 
 

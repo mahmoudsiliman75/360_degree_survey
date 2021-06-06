@@ -28,8 +28,11 @@
 		<link href="assets/plugins/custom/uppy/uppy.bundle.css" rel="stylesheet" type="text/css" />
     <!-- END:: UPLOADFILES STYLE -->
 
-    <!-- START:: FORM REPEATER STYLE -->
-    <!-- END:: FORM REPEATER STYLE -->
+    <!-- START:: OWL CAROUSEL STYLE -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- END:: OWL CAROUSEL STYLE -->
+
 
 		<!--begin::Global Theme Styles(used by all pages) -->
 		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
