@@ -5,173 +5,237 @@
 	<!-- START:: CONTENT -->
 	<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
     <div class="row">
-      <!-- START:: ARABIC QUESTIONS SECTION -->
+      <!-- START:: QUESTIONS SECTION -->
       <div class="col-12">
         <div class="kt-portlet">
 
           <div class="kt-portlet__head align-items-center justify-content-between">
             <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title kt-font-boldest"> قائمة الاسئلة بالعربية </h3>
+              <h3 class="kt-portlet__head-title kt-font-boldest"> قائمة الاسئلة </h3>
             </div>
           </div>
 
           <div class="kt-portlet__head filter">
             <form class="w_100">
-              <div class="row justify-content-center mt-4">
+              <div class="row justify-content-center my-4">
 
-                <div class="form-group col-10 mt-0">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class='input-group' id='kt_daterangepicker_2'>
-                        <div class="input-group-append">
-                          <span class="input-group-text"><i class="la la-question-circle"></i></span>
-                        </div>
-                        <input type="text" class="form-control" placeholder=" السؤال بالعربية ">
+                <div class="wraper col-12 col-md-6 d-flex justify-content-center align-items-center">
+                  <div class="form-group w_80 mb-0">
+                    <div class='input-group'>
+                      <div class="input-group-append">
+                        <span class="input-group-text"><i class="la la-question-circle"></i></span>
                       </div>
+                      <input type="text" class="form-control" placeholder=" السؤال بالعربية ">
+                    </div>
+                  </div>
+
+                  <div class="form-group mb-0 mx-2">
+                    <div class="input-group">
+                      <button type="submit" class="btn btn-success no_border">إضافة</button> 
                     </div>
                   </div>
                 </div>
 
-                <div class="form-group col-2 mb-0">
-                  <div class="input-group">
-                    <button type="submit" class="btn btn-success no_border">إضافة</button> 
+                <div class="wraper col-12 col-md-6 d-flex justify-content-center align-items-center">
+                  <div class="form-group w_80 mb-0">
+                    <div class='input-group'>
+                      <div class="input-group-append">
+                        <span class="input-group-text"><i class="la la-question-circle"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder=" السؤال بالإنجليزية ">
+                    </div>
+                  </div>
+
+                  <div class="form-group mb-0 mx-2">
+                    <div class="input-group">
+                      <button type="submit" class="btn btn-success no_border">إضافة</button> 
+                    </div>
                   </div>
                 </div>
               </div>
             </form>
           </div>
 
-          <!--START: ARABIC QUESTIONS TABLE-->
+          <!--START:: QUESTIONS TABLE-->
           <div class="container-fluid">
-            <table class="table mt-5">
-              <thead class="thead-dark">
-                <tr>
-                  <th style="width: 30px;">#</th>
-                  <th class="text-center"> السؤال بالعربية </th>
-                  <th class="action text-center">إجراء</th>
-                </tr>
-              </thead>
+            <div class="row justify-content-center">
+              <table class="col-12 col-md-10 table mt-5">
+                <thead class="thead-dark">
+                  <tr>
+                    <th style="width: 30px;">#</th>
+                    <th class="text-center"> السؤال </th>
+                    <th class="action text-center">إجراء</th>
+                  </tr>
+                </thead>
 
-              <tbody>
-                <tr class="text-center">
-                  <td>1</td>
-                  <td> 
-                    لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
-                    أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيو؟
+                <tbody>
+                  <tr class="text-center">
+                    <td>1</td>
+                    <td>
+                      <p class="arabic_question my-3">
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                        أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا؟
+                      </p>
+
+                      <p class="english_question my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente suscipit in nam consequuntur cupiditate harum?
+                      </p> 
                     </td>
 
-                  <td>
-                    <button class="btn btn-outline-danger btn-icon btn-circle delete" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل البيانات">
-                      <i class="la la-trash-o"></i>
-                    </button>
-                  </td>
-                </tr>
+                    <td>
+                      <button type="button" class="btn btn-outline-success btn-icon btn-circle" data-toggle="modal" data-target="#edit_user_data" data-skin="dark" data-placement="top" title="تعديل البيانات">
+                        <i class="la la-edit"></i>
+                      </button>
+                    </td>
+                  </tr>
 
-                <tr class="text-center">
-                  <td>2</td>
-                  <td> 
-                    لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
-                    أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيو؟
+                  <tr class="text-center">
+                    <td>2</td>
+                    <td>
+                      <p class="arabic_question my-3">
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                        أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا؟
+                      </p>
+
+                      <p class="english_question my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente suscipit in nam consequuntur cupiditate harum?
+                      </p> 
                     </td>
 
-                  <td>
-                    <button class="btn btn-outline-danger btn-icon btn-circle delete" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل البيانات">
-                      <i class="la la-trash-o"></i>
-                    </button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>  
-          </div>
-          <!--END: ARABIC QUESTIONS TABLE-->
+                    <td>
+                      <button type="button" class="btn btn-outline-success btn-icon btn-circle" data-toggle="modal" data-target="#edit_user_data" data-skin="dark" data-placement="top" title="تعديل البيانات">
+                        <i class="la la-edit"></i>
+                      </button>
+                    </td>
+                  </tr>
 
-        </div> 
-      </div>
-      <!-- END:: ARABIC QUESTIONS SECTION -->
+                  <tr class="text-center">
+                    <td>3</td>
+                    <td>
+                      <p class="arabic_question my-3">
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                        أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا؟
+                      </p>
 
-      <!-- START:: ENGLISH QUESTIONS SECTION -->
-      <div class="col-12">
-        <div class="kt-portlet">
+                      <p class="english_question my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente suscipit in nam consequuntur cupiditate harum?
+                      </p> 
+                    </td>
 
-          <div class="kt-portlet__head align-items-center justify-content-between">
-            <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title kt-font-boldest"> قائمة الاسئلة بالانجليزية </h3>
+                    <td>
+                      <button type="button" class="btn btn-outline-success btn-icon btn-circle" data-toggle="modal" data-target="#edit_user_data" data-skin="dark" data-placement="top" title="تعديل البيانات">
+                        <i class="la la-edit"></i>
+                      </button>
+                    </td>
+                  </tr>
+
+                  <tr class="text-center">
+                    <td>4</td>
+                    <td>
+                      <p class="arabic_question my-3">
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                        أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا؟
+                      </p>
+
+                      <p class="english_question my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente suscipit in nam consequuntur cupiditate harum?
+                      </p> 
+                    </td>
+
+                    <td>
+                      <button type="button" class="btn btn-outline-success btn-icon btn-circle" data-toggle="modal" data-target="#edit_user_data" data-skin="dark" data-placement="top" title="تعديل البيانات">
+                        <i class="la la-edit"></i>
+                      </button>
+                    </td>
+                  </tr>
+
+                  <tr class="text-center">
+                    <td>5</td>
+                    <td>
+                      <p class="arabic_question my-3">
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو
+                        أيوسمود تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا؟
+                      </p>
+
+                      <p class="english_question my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente suscipit in nam consequuntur cupiditate harum?
+                      </p> 
+                    </td>
+
+                    <td>
+                      <button type="button" class="btn btn-outline-success btn-icon btn-circle" data-toggle="modal" data-target="#edit_user_data" data-skin="dark" data-placement="top" title="تعديل البيانات">
+                        <i class="la la-edit"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>  
             </div>
-          </div>
 
-          <div class="kt-portlet__head filter">
-            <form class="w_100">
-              <div class="row justify-content-center mt-4">
-
-                <div class="form-group col-10 mt-0">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class='input-group' id='kt_daterangepicker_2'>
-                        <div class="input-group-append">
-                          <span class="input-group-text"><i class="la la-question-circle"></i></span>
-                        </div>
-                        <input type="text" class="form-control" placeholder=" السؤال بالانجليزية ">
-                      </div>
-                    </div>
+            <!--statr::Modal-->
+            <div class="modal fade" id="edit_user_data" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel"> تعديل الاسئلة </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    </button>
                   </div>
-                </div>
+                  <div class="modal-body">
+                    <form class="w_100">
+                      <div class="row justify-content-center my-4">
 
-                <div class="form-group col-2 mb-0">
-                  <div class="input-group">
-                    <button type="submit" class="btn btn-success no_border">إضافة</button> 
+                        <div class="wraper col-12 my-3 d-flex justify-content-center align-items-center">
+                          <div class="form-group w_80 mb-0">
+                            <div class='input-group'>
+                              <div class="input-group-append">
+                                <span class="input-group-text"><i class="la la-question-circle"></i></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder=" السؤال بالعربية ">
+                            </div>
+                          </div>
+
+                          <div class="form-group mb-0 mx-2">
+                            <div class="input-group">
+                              <button type="submit" class="btn btn-success no_border">إضافة</button> 
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="wraper col-12 my-3 d-flex justify-content-center align-items-center">
+                          <div class="form-group w_80 mb-0">
+                            <div class='input-group'>
+                              <div class="input-group-append">
+                                <span class="input-group-text"><i class="la la-question-circle"></i></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder=" السؤال بالإنجليزية ">
+                            </div>
+                          </div>
+
+                          <div class="form-group mb-0 mx-2">
+                            <div class="input-group">
+                              <button type="submit" class="btn btn-success no_border">إضافة</button> 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
-            </form>
+            </div>
+            <!--end::Modal-->
           </div>
-
-          <!--START: ENGLISH QUESTIONS TABLE-->
-          <div class="container-fluid">
-            <table class="table mt-5">
-              <thead class="thead-dark">
-                <tr>
-                  <th style="width: 30px;">#</th>
-                  <th class="text-center"> السؤال بالانجليزية </th>
-                  <th class="action text-center">إجراء</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr class="text-center">
-                  <td>1</td>
-                  <td> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sapiente suscipit in nam consequuntur cupiditate harum?
-                  </td>
-
-                  <td>
-                    <button class="btn btn-outline-danger btn-icon btn-circle delete" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل البيانات">
-                      <i class="la la-trash-o"></i>
-                    </button>
-                  </td>
-                </tr>
-
-                <tr class="text-center">
-                  <td>2</td>
-                    <td> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Sapiente suscipit in nam consequuntur cupiditate harum?
-                    </td>
-
-                  <td>
-                    <button class="btn btn-outline-danger btn-icon btn-circle delete" data-skin="dark" data-toggle="kt-tooltip" data-placement="top" title="تعديل البيانات">
-                      <i class="la la-trash-o"></i>
-                    </button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>  
-          </div>
-          <!--END: ENGLISH QUESTIONS TABLE-->
+          <!--END:: QUESTIONS TABLE-->
 
         </div> 
       </div>
-      <!-- END:: ENGLISH QUESTIONS SECTION -->
+      <!-- END:: QUESTIONS SECTION -->
     </div>
 	</div>
   <!-- END:: CONTENT -->

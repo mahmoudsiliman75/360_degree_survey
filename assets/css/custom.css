@@ -860,6 +860,10 @@ input.btn.btn-label-brand.active {
   width: 100% !important;
 }
 
+.w_80 {
+  width: 80% !important;
+}
+
 .no_border {
   border: none;
 }

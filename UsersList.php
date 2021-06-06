@@ -20,12 +20,12 @@
 
           <div class="kt-portlet__head filter">
             <form class="w_100">
-              <div class="row justify-content-center mt-4">
+              <div class="row justify-content-start mt-4">
 
                 <div class="form-group col-4 mt-0">
                   <div class="row">
                     <div class="col-12">
-                      <div class='input-group' id='kt_daterangepicker_2'>
+                      <div class='input-group'>
                         <div class="input-group-append">
                           <span class="input-group-text"><i class="la la-user"></i></span>
                         </div>
