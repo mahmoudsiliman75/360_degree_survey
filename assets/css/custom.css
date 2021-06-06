@@ -825,6 +825,9 @@ input.btn.btn-label-brand.active {
 }
 /* END:: TESTEMONIALS SECTION STYLES */
 
+.rating .rate-base-layer {
+  position: relative !important;
+}
 
 
 
@@ -843,6 +846,10 @@ input.btn.btn-label-brand.active {
 
 .min_height_auto {
   min-height: auto !important;
+}
+
+.height_auto {
+  height: auto !important;
 }
 
 .w_auto {
@@ -867,5 +874,13 @@ input.btn.btn-label-brand.active {
 
 .fs_15 {
   font-size: 15px;
+}
+
+.fs_35 {
+  font-size: 35px;
+}
+
+.ltr_dir {
+  direction: ltr;
 }
 /* END:: CUSTOM CLASSES */

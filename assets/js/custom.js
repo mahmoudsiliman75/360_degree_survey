@@ -70,7 +70,25 @@ $(document).ready( function () {
     smartSpeed: 2500,
     dotsSpeed: 2500,
   });
-  // end:: OWL CAROUSEL 
+  // END:: OWL CAROUSEL 
+
+  // START:: RATER.JS
+  var options = {
+    max_value: 5,
+    step_size: 0.5,
+    initial_value: 0,
+    selected_symbol_type: 'utf8_star', // Must be a key from symbols
+    cursor: 'pointer',
+    readonly: false,
+    change_once: false, // Determines if the rating can only be set once
+    ajax_method: 'POST',
+    url: 'localhost/projects/360_degree_survey/Rate.php',
+    additional_data: {} // Additional data to send to the server
+  }
+
+  $(".rating").rate(options);
+  // END:: RATER.JS
+
 
   $('#remove-offer-pic').on('click', function() {
     $(this).parent().parent().empty();

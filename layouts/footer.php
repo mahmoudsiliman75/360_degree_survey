@@ -101,6 +101,9 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <!-- END:: OWL CAROUSEL STYLE -->
 
+    <!-- START:: RATER.JS SCRIPT -->
+    <script src="assets/js/rater.min.js"></script>
+    <!-- END:: RATER.JS SCRIPT -->
 
     <!-- START:: SWEET ALERT -->
     <script src="assets/js/sweetalert2.js" type="text/javascript"></script>

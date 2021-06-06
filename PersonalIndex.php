@@ -5,6 +5,7 @@
 	<!-- START:: CONTENT -->
 	<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
     <div class="row">
+      <!-- START:: RATINGS TABLES ECTION -->
       <div class="col-12">
         <div class="kt-portlet">
 
@@ -145,6 +146,7 @@
 
         </div> 
       </div>
+      <!-- END:: RATINGS TABLES ECTION -->
 
       <!-- START:: COMMENTS SECTION -->
       <div class="col-12 py-5">
