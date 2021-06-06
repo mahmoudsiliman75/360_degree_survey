@@ -14,10 +14,10 @@
             </div>
           </div>
 
-          <!--START: RATING QUESTIONS TABLE-->
           <div class="container-fluid">
             <div class="row justify-content-center">
-              <table class="col-12 col-md-11 table mt-5">
+              <!--START: RATING QUESTIONS TABLE-->
+              <table class="col-12 col-md-10 table mt-5">
                 <thead class="thead-dark">
                   <tr>
                     <th style="width: 30px;">#</th>
@@ -93,10 +93,31 @@
                     </td>
                   </tr>
                 </tbody>
-              </table>  
+              </table> 
+              <!--END: RATING QUESTIONS TABLE--> 
+
+              <!-- START:: COMMENTS FORM -->
+              <form class="col-12 col-md-10 px-0">
+                <div class="form-group col-12">
+                  <div class="row">
+                    <label class="col-form-label col-12"> التعليقات </label>
+                    <div class="input-group-prepend col-12">
+                      <textarea class="text_editor"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group col-3 px-4">
+                  <div class="input-group">
+                    <div class="row">
+                      <button type="submit" class="btn btn-success" style="background-color:#17b978; border:none;">حفظ</button> 
+                    </div>
+                  </div>
+                </div>
+              </form> 
+              <!-- START:: COMMENTS FORM -->
             </div>
           </div>
-          <!--END: RATING QUESTIONS TABLE--> 
 
         </div> 
       </div>
