@@ -5,7 +5,6 @@
 	<!-- START:: CONTENT -->
 	<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
     <div class="row">
-      <!-- START:: RATING SECTION -->
       <div class="col-12">
         <div class="kt-portlet">
 
@@ -15,7 +14,7 @@
             </div>
 
             <div class="btn_box">
-              <a href="RateOthers.php" class="btn btn-outline-info mx-1"> <i class="la la-star-o"></i> تقييم الاخرين </a>
+              <a href="Team.php" class="btn btn-outline-info mx-1"> <i class="la la-star-o"></i> تقييم الاخرين </a>
             </div>
           </div>
 
@@ -146,9 +145,8 @@
 
         </div> 
       </div>
-      <!-- END:: RATING SECTION -->
 
-      <!-- START:: RATING SECTION -->
+      <!-- START:: COMMENTS SECTION -->
       <div class="col-12 py-5">
         <div class="header_wraper d-flex justify-content-center align-items-center">
           <h2> التعليقات </h2>
@@ -201,7 +199,7 @@
           </div>
         </div>
       </div>
-      <!-- END:: RATING SECTION -->
+      <!-- END:: COMMENTS SECTION -->
     </div>
 	</div>
   <!-- END:: CONTENT -->

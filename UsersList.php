@@ -158,7 +158,7 @@
                         <div class="row">
                           <label class="col-form-label col-12"> المسمي الوظيفي </label>
                           <div class="input-group-prepend col-12">
-                            <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
+                            <span class="input-group-text"> <i class="la la-bookmark" style="font-size: 18px"></i> </span>
                             <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
                               <option> اختار المسمي الوظيفي  </option>
                               <option value="1"> اختيار 1 </option>
