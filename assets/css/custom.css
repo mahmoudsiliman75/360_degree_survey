@@ -831,6 +831,15 @@ input.btn.btn-label-brand.active {
 
 
 
+
+
+
+
+
+
+
+
+
 /* START:: CUSTOM CLASSES */
 .brand_bg {
   background-color: #b1cdff !important;
@@ -880,8 +889,52 @@ input.btn.btn-label-brand.active {
   font-size: 15px;
 }
 
+.fs_25 {
+  font-size: 25px;
+}
+
 .fs_35 {
   font-size: 35px;
+}
+
+.align_start {
+  text-align: start;
+}
+
+.align_end {
+  text-align: end;
+}
+
+.m_start_5 {
+  margin-inline-start: 5px;
+}
+
+.m_start_8 {
+  margin-inline-start: 8px;
+}
+
+.m_start_10 {
+  margin-inline-start: 10px;
+}
+
+.m_start_15 {
+  margin-inline-start: 15px;
+}
+
+.m_end_5 {
+  margin-inline-end: 5px;
+}
+
+.m_end_8 {
+  margin-inline-end: 8px;
+}
+
+.m_end_10 {
+  margin-inline-end: 10px;
+}
+
+.m_end_15 {
+  margin-inline-end: 15px;
 }
 
 .ltr_dir {
