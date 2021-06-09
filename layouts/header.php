@@ -137,6 +137,10 @@
 												<a href="DepartmentsReports.php" class="kt-menu__link kt-menu__toggle">  تقارير الأقسام </a>
 											</li>
 
+                      <li class="kt-menu__item">
+												<a href="TeamsReports.php" class="kt-menu__link kt-menu__toggle">  تقارير المجموعات </a>
+											</li>
+
 										</ul>
 									</div>
 								</li>

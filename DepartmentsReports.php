@@ -26,7 +26,7 @@
               <form class="w_100">
                 <div class="row justify-content-between my-4">
 
-                  <div class="wraper col-12 col-md-6 d-flex justify-content-start align-items-center">
+                  <div class="wraper col-12 col-md-4 d-flex justify-content-start align-items-center">
                     <div class="form-group mb-0 w_80">
                       <div class="row">
                         <div class="col-12">
@@ -50,7 +50,7 @@
                     </div>
                   </div>
 
-                  <div class="wraper col-12 col-md-6 d-flex justify-content-start align-items-center">
+                  <div class="wraper col-12 col-md-4 d-flex justify-content-start align-items-center">
                     <div class="form-group mb-0 w_80">
                       <div class="row">
                         <div class="col-12">
@@ -58,9 +58,33 @@
                             <span class="input-group-text"> <i class="la la-line-chart" style="font-size: 18px"></i> </span>
                             <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
                               <option> اختار القسم  </option>
-                              <option value="1"> قسم 1 </option>
-                              <option value="2"> قسم 2 </option>
-                              <option value="3"> قسم 3 </option>
+                              <option value="1"> القسم 1 </option>
+                              <option value="2"> القسم 2 </option>
+                              <option value="3"> القسم 3 </option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group mb-0">
+                      <div class="input-group">
+                        <button type="submit" class="btn btn-success no_border">بحث</button> 
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="wraper col-12 col-md-4 d-flex justify-content-start align-items-center">
+                    <div class="form-group mb-0 w_80">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="input-group-prepend col-12">
+                            <span class="input-group-text"> <i class="la la-line-chart" style="font-size: 18px"></i> </span>
+                            <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
+                              <option> اختار المجموعة  </option>
+                              <option value="1"> مجموعة 1 </option>
+                              <option value="2"> مجموعة 2 </option>
+                              <option value="3"> مجموعة 3 </option>
                             </select>
                           </div>
                         </div>
