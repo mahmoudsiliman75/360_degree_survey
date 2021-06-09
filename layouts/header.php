@@ -133,6 +133,10 @@
 												<a href="OveralReport.php" class="kt-menu__link kt-menu__toggle"> التقرير الكلى </a>
 											</li>
 
+                      <li class="kt-menu__item">
+												<a href="DepartmentsReports.php" class="kt-menu__link kt-menu__toggle">  تقارير الأقسام </a>
+											</li>
+
 										</ul>
 									</div>
 								</li>
