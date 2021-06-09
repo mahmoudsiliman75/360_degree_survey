@@ -119,6 +119,23 @@
 										<span class="kt-menu__link-text">إدارة الأسئلة</span>
 									</a>
 								</li>
+
+                <li class="kt-menu__item"  aria-haspopup="true">
+									<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+										<i class="kt-menu__link-icon la la-bar-chart-o" style="font-size: 20px"></i>
+										<span class="kt-menu__link-text"> التقارير </span>
+										<i class="kt-menu__ver-arrow la la-chevron-down"></i>
+									</a>
+									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+										<ul class="kt-menu__subnav">
+
+											<li class="kt-menu__item">
+												<a href="OveralReport.php" class="kt-menu__link kt-menu__toggle"> التقرير الكلى </a>
+											</li>
+
+										</ul>
+									</div>
+								</li>
 							</ul>
 						</div>
 					</div>
