@@ -56,6 +56,19 @@ $(document).ready( function () {
   });
   // END:: CHANGE OFFER PIC
 
+  // START:: PRINT THIS
+  $('#print_btn').on('click', function() {
+    $('.print_wraper').printThis({
+      importStyle: true, 
+      importCSS: true,
+      loadCSS: "../css/custom.css",
+      canvas: true,
+      copyTagClasses: true, 
+      removeInline: false,
+    });
+  });
+  // END:: PRINT THIS
+
   // START:: CHART JS
   new Chart($('#myChart'), {
     type: 'bar',

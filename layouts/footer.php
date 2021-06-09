@@ -120,6 +120,10 @@
 		<!-- START:: CHART JS SCRIPT -->
     <script src="assets/js/chart3.3.2.min.js"></script>
     <!-- END:: CHART JS SCRIPT -->
+    
+    <!-- START:: PRINT THIS SCRIPT -->
+    <script src="assets/js/printThis.js"></script>
+    <!-- END:: PRINT THIS SCRIPT -->
 
     <script src="assets/js/chat.js"></script>
 
