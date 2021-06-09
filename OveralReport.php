@@ -15,10 +15,15 @@
             </div>
 
             <div class="wraper">
-              <a href="DepartmentsReports.php" type="button" class="btn btn-outline-info mx-1"> 
+              <a href="DepartmentsReports.php" class="btn btn-outline-info mx-1"> 
                 <i class="la la-bar-chart-o"></i> 
                 تقارير الاقسام
               </a>
+
+              <button class="btn btn-outline-success mx-1"> 
+                <i class="la la-file-excel-o"></i> 
+                Download Excel File 
+              </button>
             </div>
           </div>
 

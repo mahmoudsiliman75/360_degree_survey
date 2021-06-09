@@ -13,6 +13,13 @@
             <div class="kt-portlet__head-label">
               <h3 class="kt-portlet__head-title kt-font-boldest"> تقارير الأشخاص </h3>
             </div>
+
+            <div class="wraper">
+              <button class="btn btn-outline-success mx-1"> 
+                <i class="la la-file-excel-o"></i> 
+                Download Excel File 
+              </button>
+            </div>
           </div>
 
           <div class="kt-section__content py-2 px-4">
