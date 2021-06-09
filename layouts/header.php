@@ -162,10 +162,18 @@
 
 
               <!--START:: PERSONAL DEMO BTN -->
-              <div class="btn_wraper d-flex justify-content-center align-items-center">
+              <div class="btn_wraper d-flex justify-content-center align-items-center mx-3">
                 <a href="PersonalIndex.php" class="btn btn-outline-danger btn-sm"> لوحة التحكم للشخص </a>
               </div>
 							<!--END:: PERSONAL DEMO BTN -->
+
+              <!--START:: LANGUAGE BTN -->
+              <div class="btn_wraper d-flex justify-content-center align-items-center">
+                <a href="#" class="kt-font-light">
+                  <i class="kt-menu__link-icon la la-globe la-2x"></i>
+                </a>
+              </div>
+							<!--END:: LANGUAGE BTN -->
 
 							<!--START:: NOTIFICATIONS -->
 							<div class="kt-header__topbar-item dropdown">
