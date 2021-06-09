@@ -86,6 +86,14 @@
               </div>  
 
               <div class="wraper d-flex justify-content-center align-items-center">
+                <!--START:: LANGUAGE BTN -->
+                <div class="btn_wraper d-flex justify-content-center align-items-center">
+                  <a href="#" class="kt-font-light">
+                    <i class="kt-menu__link-icon la la-globe la-2x"></i>
+                  </a>
+                </div>
+                <!--END:: LANGUAGE BTN -->
+
                 <!--START:: NOTIFICATIONS -->
                 <div class="kt-header__topbar-item dropdown">
                   <div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="30px,0px" aria-expanded="true">

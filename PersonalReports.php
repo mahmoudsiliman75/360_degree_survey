@@ -5,28 +5,22 @@
 	<!-- START:: CONTENT -->
 	<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
     <div class="row">
+
       <!-- START:: FILTERS SECTION -->
       <div class="col-12">
         <div class="kt-portlet min_height_auto">
           <div class="kt-portlet__head align-items-center justify-content-between">
             <div class="kt-portlet__head-label">
-              <h3 class="kt-portlet__head-title kt-font-boldest"> تقارير المجموعات </h3>
-            </div>
-
-            <div class="wraper">
-              <a href="PersonalReports.php" type="button" class="btn btn-outline-info mx-1"> 
-                <i class="la la-bar-chart-o"></i> 
-                تقارير الاشخاص
-              </a>
+              <h3 class="kt-portlet__head-title kt-font-boldest"> تقارير الأشخاص </h3>
             </div>
           </div>
 
-          <div class="kt-section__content px-4 py-2">
+          <div class="kt-section__content py-2 px-4">
             <div class="filter">
               <form class="w_100">
                 <div class="row justify-content-between my-4">
 
-                  <div class="wraper col-12 col-md-4 d-flex justify-content-start align-items-center">
+                  <div class="wraper col-12 col-md-6 d-flex justify-content-start align-items-center">
                     <div class="form-group mb-0 w_80">
                       <div class="row">
                         <div class="col-12">
@@ -50,41 +44,17 @@
                     </div>
                   </div>
 
-                  <div class="wraper col-12 col-md-4 d-flex justify-content-start align-items-center">
+                  <div class="wraper col-12 col-md-6 d-flex justify-content-start align-items-center">
                     <div class="form-group mb-0 w_80">
                       <div class="row">
                         <div class="col-12">
                           <div class="input-group-prepend col-12">
-                            <span class="input-group-text"> <i class="la la-line-chart" style="font-size: 18px"></i> </span>
+                            <span class="input-group-text"> <i class="la la-user" style="font-size: 18px"></i> </span>
                             <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
-                              <option> اختار القسم  </option>
-                              <option value="1"> القسم 1 </option>
-                              <option value="2"> القسم 2 </option>
-                              <option value="3"> القسم 3 </option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="form-group mb-0">
-                      <div class="input-group">
-                        <button type="submit" class="btn btn-success no_border">بحث</button> 
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="wraper col-12 col-md-4 d-flex justify-content-start align-items-center">
-                    <div class="form-group mb-0 w_80">
-                      <div class="row">
-                        <div class="col-12">
-                          <div class="input-group-prepend col-12">
-                            <span class="input-group-text"> <i class="la la-line-chart" style="font-size: 18px"></i> </span>
-                            <select class="form-control kt-selectpicker" data-size="7" data-live-search="true">
-                              <option> اختار المجموعة  </option>
-                              <option value="1"> مجموعة 1 </option>
-                              <option value="2"> مجموعة 2 </option>
-                              <option value="3"> مجموعة 3 </option>
+                              <option> اختار اسم الموظف  </option>
+                              <option value="1"> موظف 1 </option>
+                              <option value="2"> موظف 2 </option>
+                              <option value="3"> موظف 3 </option>
                             </select>
                           </div>
                         </div>
@@ -104,6 +74,31 @@
         </div>
       </div>
       <!-- END:: FILTERS SECTION -->
+
+      <!-- START:: PROGRESS BAR SECTION -->
+      <div class="col-12">
+        <div class="kt-portlet px-4 min_height_auto">
+          <div class="row justify-content-between">
+            <div class="kt-section__content py-4 col-6">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="col-3 d-flex justify-content-end align-items-center">
+              <div class="persons_counter ltr_dir">
+                <span>
+                  <i class="la la-user la-2x"></i>
+                </span>
+                <span class="fs_25 margin">
+                  : 30  / 40
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END:: PROGRESS BAR SECTION -->
 
       <!-- START:: RATINGS TABLES ECTION -->
       <div class="col-12 col-md-7">
