@@ -31,8 +31,8 @@
       <!-- END:: PROGRESS BAR SECTION -->
 
       <!-- START:: RATINGS TABLES ECTION -->
-      <div class="col-12">
-        <div class="kt-portlet">
+      <div class="col-12 col-md-7">
+        <div class="kt-portlet py-3">
 
           <div class="kt-portlet__head align-items-center justify-content-between">
             <div class="kt-portlet__head-label">
@@ -97,13 +97,13 @@
           <!--START: RATING QUESTIONS TABLE-->
           <div class="container-fluid">
             <div class="row justify-content-center">
-              <div class="col-12 col-md-10">
+              <div class="col-12">
                 <table class="table mt-5">
                   <thead class="thead-dark">
                     <tr>
                       <th style="width: 30px;">#</th>
                       <th class="text-center"> السؤال </th>
-                      <th class="text-center" style="width: 220px;"> التقييم </th>
+                      <th class="text-center" style="width: 161px;"> التقييم </th>
 
                     </tr>
                   </thead>
@@ -112,8 +112,7 @@
                     <tr class="text-center">
                       <td>1</td>
                       <td> 
-                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور  
-                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم؟
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود؟
                       </td>
                       <td>
                         <div class="wraper text-right">
@@ -129,8 +128,7 @@
                     <tr class="text-center">
                       <td>2</td>
                       <td> 
-                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور  
-                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم؟
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود؟  
                       </td>
                       <td>
                         <div class="wraper text-right">
@@ -145,8 +143,7 @@
                     <tr class="text-center">
                       <td>3</td>
                       <td> 
-                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور  
-                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم؟
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود؟
                       </td>
                       <td>
                         <div class="wraper text-right">
@@ -161,8 +158,7 @@
                     <tr class="text-center">
                       <td>4</td>
                       <td> 
-                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور  
-                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم؟
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود؟
                       </td>
                       <td>
                         <div class="wraper text-right">
@@ -175,8 +171,7 @@
                     <tr class="text-center">
                       <td>5</td>
                       <td> 
-                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور  
-                        أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم؟
+                        لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود؟
                       </td>
                       <td>
                         <div class="wraper text-right">
@@ -197,6 +192,14 @@
         </div> 
       </div>
       <!-- END:: RATINGS TABLES ECTION -->
+
+      <!-- START:: RATINGS GRAPH ECTION -->
+      <div class="col-12 col-md-5">
+        <div class="kt-portlet p-4">
+          <canvas id="myChart" width="400" height="400"></canvas>
+        </div> 
+      </div>
+      <!-- END:: RATINGS GRAPH ECTION -->
 
       <!-- START:: COMMENTS SECTION -->
       <div class="col-12 py-5">
